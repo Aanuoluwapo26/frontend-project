@@ -1,0 +1,193 @@
+body {
+    padding: 0px 50px 0px 50px;
+}
+
+.container {
+    display: flex;
+    padding: 40px;
+
+}
+
+.container-one {
+    color: hsl(300, 43%, 22%);
+    padding: 20px;
+    width: 50%;
+
+}
+
+.one {
+    width: 50%;
+    font-size: larger;
+}
+
+.one-one {
+    width: 50%;
+    font-size: large;
+}
+
+.container-two {
+    width: 50%;
+
+}
+
+.rated-color {
+    color: hsl(300, 43%, 22%);
+    margin: 10px 0;
+}
+
+.rated {
+    padding-top: 4px;
+    margin-left: 10px;
+}
+
+.two {
+    display: flex;
+    background-color: rgb(247, 242, 248);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+
+}
+
+.star-class {
+    display: flex;
+    margin: auto;
+}
+
+.parent {
+    display: flex;
+    padding: 20px;
+
+}
+
+body {
+    font-size: 16px;
+    font-family: 'League Spartan';
+}
+
+.image {
+
+    border-radius: 50px;
+}
+
+
+.card {
+    width: 25%;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(300, 43%, 22%);
+    font-weight: 400;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+.top-section {
+    display: flex;
+
+}
+
+.top-right-container {
+    width: 60%;
+    height: 70px;
+}
+
+.top-right {
+    margin: 20px;
+}
+
+
+
+
+.buy {
+
+    color: hsl(300, 53%, 55%);
+}
+
+.img {
+    width: 20px;
+
+}
+
+.trans1 {
+    transform: translateX(30px);
+}
+
+.trans2 {
+    transform: translateX(60px);
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        padding: 0px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .container-one,
+    .one,
+    .one-one {
+        width: 100%;
+        padding: 0%;
+
+    }
+
+    .two {
+        display: block;
+        width: max-content;
+        margin: auto;
+    }
+
+    .star-class {
+        width: 50%;
+        /* margin: auto; */
+    }
+
+    .trans1,
+    .trans2 {
+        transform: translateX(-0px);
+    }
+
+    .parent {
+        display: block;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .top-right-container {
+        width: 80%;
+    }
+
+    .image {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .top-right {
+        margin: auto;
+    }
+}
+
+/* 
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+    .parent {
+        display: block;
+    }
+
+    .card {
+        width: 20%;
+        font-size: 15px;
+    }
+} */
