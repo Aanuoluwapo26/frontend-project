@@ -1,5 +1,7 @@
 body {
     padding: 0px 50px 0px 50px;
+    font-size: 16px;
+    font-family: 'League Spartan';
 }
 
 .container {
@@ -66,11 +68,6 @@ body {
 
 }
 
-body {
-    font-size: 16px;
-    font-family: 'League Spartan';
-}
-
 .image {
 
     border-radius: 50px;
@@ -124,7 +121,7 @@ body {
     transform: translateX(60px);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     body {
         padding: 0px;
     }
@@ -178,6 +175,14 @@ body {
     .top-right {
         margin: auto;
     }
+}
+
+.footer {
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
 }
 
 /* 
